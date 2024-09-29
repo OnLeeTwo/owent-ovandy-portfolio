@@ -10,7 +10,7 @@ export default function Custom404() {
       <div className="error-content">
         <h1 className="error-title">404</h1>
         <p className="error-message">
-          Oops! The page you're looking for doesn't exist.
+          Oops! The page you&aposre looking for doesn&apost exist.
         </p>
         <button className="error-btn" onClick={() => router.push("/")}>
           Go Back Home

@@ -1,4 +1,5 @@
 import "../../public/assets/css/style.css";
+import Script from "next/script";
 import { Poppins } from "next/font/google";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
@@ -28,14 +29,14 @@ export default function RootLayout({ children }) {
             {children}
           </div>
         </main>
-        <script
+        <Script
           type="module"
           src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-        ></script>
-        <script
+        ></Script>
+        <Script
           noModule
           src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-        ></script>
+        ></Script>
       </body>
     </html>
   );
