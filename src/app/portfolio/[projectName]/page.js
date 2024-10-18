@@ -48,7 +48,7 @@ const ProjectDetail = ({ params }) => {
           technologies: ["Next.js", "PokeAPI"],
           background:
             "Pokemon Viewer is an online platform where users can browse and view all Pokémon from the official Pokédex. It allows users to search for Pokémon by name or number and explore detailed stats, abilities, and evolutions. The website is designed to provide an intuitive and fun way for Pokémon enthusiasts to explore their favorite creatures and discover new ones.",
-          responsibilities: [
+          responsibilites: [
             "UI/UX Development: Build an engaging and user-friendly interface to display Pokémon details using React/Next.js.",
             "Responsive Design: Ensure the website layout is fully responsive and works well on desktop, tablet, and mobile devices.",
             "Dynamic Content Rendering: Implement dynamic pages for Pokémon details, including stats, abilities, and evolutions.",
@@ -67,7 +67,7 @@ const ProjectDetail = ({ params }) => {
           link: ["https://github.com/OnLeeTwo/module-6-OnLeeTwo/"],
           technologies: ["Flask"],
           background: [
-            "Zoo Management API is a comprehensive backend system designed to manage a zoo’s operations. It enables the registration of animals, creation of detailed animal profiles (including sex, age, and species), and allows for tracking zoo profits, visitor feedback, and other key metrics. The API provides the foundation for a zoo's digital operations, making it easy to manage animals and operational data efficiently.",
+            "Zoo Management API is a comprehensive backend system designed to manage a zoo operations. It enables the registration of animals, creation of detailed animal profiles (including sex, age, and species), and allows for tracking zoo profits, visitor feedback, and other key metrics. The API provides the foundation for a zoo's digital operations, making it easy to manage animals and operational data efficiently.",
           ],
           responsibilites: [
             "API Design: Design RESTful API endpoints to handle operations for registering animals, managing their profiles, and tracking data such as sex, age, and species.",
