@@ -278,49 +278,40 @@ const About = () => {
               </div>
             </div>
           </section>
-        </div>
+        </div> */}
 
         <section className="clients">
-          <h3 className="h3 clients-title">Clients</h3>
+          <h3 className="h3 clients-title">Projects</h3>
 
           <ul className="clients-list has-scrollbar">
             <li className="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo" />
+              <a href="portfolio/sucomart">
+                <img
+                  src="./assets/images/logo-1-color.png"
+                  alt="sucomart logo"
+                />
               </a>
             </li>
 
             <li className="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo" />
+              <a href="portfolio/pokemon-viewer">
+                <img
+                  src="./assets/images/logo-2-color.png"
+                  alt="pokemon-viewer logo"
+                />
               </a>
             </li>
 
             <li className="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo" />
-              </a>
-            </li>
-
-            <li className="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo" />
-              </a>
-            </li>
-
-            <li className="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo" />
-              </a>
-            </li>
-
-            <li className="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo" />
+              <a href="portfolio/zoo-management-api">
+                <img
+                  src="./assets/images/logo-3-color.png"
+                  alt="zoo-management-api logo"
+                />
               </a>
             </li>
           </ul>
-        </section> */}
+        </section>
       </article>
     </div>
   );

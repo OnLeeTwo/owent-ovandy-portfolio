@@ -1,9 +1,11 @@
 "use client";
 
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("All");
+  const router = useRouter();
 
   const projects = [
     {
@@ -11,26 +13,30 @@ const Portfolio = () => {
       title: "Sucomart",
       category: "Fullstack",
       image: "./assets/images/project-1.jpg",
-      link: "https://github.com/OnLeeTwo/frontend-gfg-group-g",
+      link: "sucomart",
     },
     {
       id: 2,
       title: "Pokemon Viewer",
       category: "Frontend",
       image: "./assets/images/project-2.png",
-      link: "https://github.com/OnLeeTwo/pokemon-viewer-next.js",
+      link: "pokemon-viewer",
     },
     {
       id: 3,
       title: "Zoo management API",
       category: "Backend",
       image: "./assets/images/project-3.png",
-      link: "https://github.com/OnLeeTwo/module-6-OnLeeTwo",
+      link: "zoo-management-api",
     },
   ];
 
   const handleFilterChange = (filter) => {
     setActiveFilter(filter);
+  };
+
+  const handleProjectClick = (projectLink) => {
+    router.push(`/portfolio/${projectLink}`);
   };
 
   const filteredProjects =
@@ -82,9 +88,8 @@ const Portfolio = () => {
                 data-category={project.category.toLowerCase().replace(" ", "-")}
               >
                 <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  onClick={() => handleProjectClick(project.link)}
+                  style={{ cursor: "pointer" }}
                 >
                   <figure className="project-img">
                     <div className="project-item-icon-box">

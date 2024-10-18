@@ -13,7 +13,7 @@ const Sidebar = () => {
       <div className="sidebar-info">
         <figure className="avatar-box">
           <img
-            src="./assets/images/my-avatar.png"
+            src="../assets/images/my-avatar.png"
             alt="Owent Ovandy"
             width="80"
           ></img>
@@ -67,7 +67,7 @@ const Sidebar = () => {
             <div className="contact-info">
               <p className="contact-title">Phone</p>
 
-              <a href="tel:+62822972809841" className="contact-link">
+              <a href="https://wa.me/+628229720841" className="contact-link">
                 +62 822-9720-9841
               </a>
             </div>

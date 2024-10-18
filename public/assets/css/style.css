@@ -286,7 +286,6 @@ article.active {
   padding-top: 45px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
-  cursor: pointer;
   z-index: 1;
 }
 
@@ -1100,6 +1099,76 @@ main {
 }
 
 /*-----------------------------------*\
+  #PROJECT DETAILS
+\*-----------------------------------*/
+
+.project-details-title {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: var(--fs-4);
+  line-height: 1.3;
+  margin-bottom: 7px;
+  color: var(--white-1);
+}
+
+.screenshots {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  margin: 0 -15px;
+  padding: 25px;
+  padding-bottom: 25px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 25px;
+}
+
+.screenshots img {
+  min-width: 50%;
+  scroll-snap-align: start;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.technologies {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 20px;
+  color: var(--white-2);
+  font-size: var(--fs-5);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.technologies li {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.responsibilities-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.responsibilities-list li {
+  font-size: var(--fs-6);
+  color: var(--white-2);
+  margin-bottom: 10px;
+}
+
+/*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
 
@@ -1326,7 +1395,7 @@ textarea.form-input::-webkit-resizer {
  * responsive larger than 450px screen
  */
 
-@media (min-width: 450px) {
+@media (min-width: 375px) {
   /**
    * client
    */
@@ -2026,7 +2095,6 @@ textarea.form-input::-webkit-resizer {
   }
 }
 
-/* In your global.css or custom 404.css */
 .custom-404 {
   display: flex;
   justify-content: center;
