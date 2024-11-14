@@ -55,9 +55,54 @@ const Resume = () => {
 
           <ol className="timeline-list">
             <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">
+                Associate Engineer, RevoU
+              </h4>
+
+              <span>November, 2024 – Now</span>
+
+              <p className="timeline-text">
+                <ul>
+                  <li style={{ listStyleType: "disc" }}>
+                    Analyzed user Product Requirement Documents (PRDs) to
+                    translate business requirements into technical
+                    specifications, ensuring a clear understanding of user needs
+                    and facilitating the creation of efficient and effective
+                    applications.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Developed and maintained scalable web applications using
+                    modern frameworks and languages, including Python,
+                    JavaScript (React), and Node.js, improving performance by
+                    20% and enhancing user experience.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Collaborated with cross-functional teams to design, test,
+                    and implement new features and functionalities, reducing
+                    overall project timelines by 10%.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Utilized RESTful APIs to integrate backend services with
+                    frontend applications, achieving seamless data flow and
+                    real-time updates for users.
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Engaged in Agile practices, participating in daily
+                    stand-ups, sprint planning, and retrospective meetings,
+                    fostering effective communication and teamwork
+                  </li>
+                  <li style={{ listStyleType: "disc" }}>
+                    Conducted code reviews and debugging sessions, ensuring
+                    high-quality code standards and reducing production issues.
+                  </li>
+                </ul>
+              </p>
+            </li>
+
+            <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Freelance, Appen</h4>
 
-              <span>March, 2022 – Now</span>
+              <span>March, 2023 – Now</span>
 
               <p className="timeline-text">
                 <ul>
@@ -87,7 +132,7 @@ const Resume = () => {
                 Structural Engineer, PT. Ketira Engineering Consultants
               </h4>
 
-              <span>February, 2021 – February, 2022</span>
+              <span>February, 2022 – February, 2023</span>
 
               <p className="timeline-text">
                 <ul>
