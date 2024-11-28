@@ -312,11 +312,8 @@ const About = () => {
             </li>
 
             <li className="clients-item">
-              <a href="portfolio/zoo-management-api">
-                <img
-                  src="./assets/images/logo-3-color.png"
-                  alt="zoo-management-api logo"
-                />
+              <a href="portfolio/delish">
+                <img src="./assets/images/logo-4-color.png" alt="delish logo" />
               </a>
             </li>
           </ul>
