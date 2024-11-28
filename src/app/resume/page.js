@@ -56,7 +56,7 @@ const Resume = () => {
           <ol className="timeline-list">
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">
-                Associate Engineer, RevoU
+                Intern Frontend Developer, PT. Angkasa Defender Indonesia
               </h4>
 
               <span>November, 2024 – Now</span>
@@ -64,36 +64,26 @@ const Resume = () => {
               <p className="timeline-text">
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
-                    Analyzed user Product Requirement Documents (PRDs) to
-                    translate business requirements into technical
-                    specifications, ensuring a clear understanding of user needs
-                    and facilitating the creation of efficient and effective
-                    applications.
+                    Assisted in developing an internal application for project
+                    tracking utilizing TypeScript, Vue.js and Tailwind as
+                    frontend frameworks, enhancing project visibility and
+                    workflow management.
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Developed and maintained scalable web applications using
-                    modern frameworks and languages, including Python,
-                    JavaScript (React), and Node.js, improving performance by
-                    20% and enhancing user experience.
+                    Collaborated with a cross-functional team of designers and
+                    backend developers to ensure seamless integration and
+                    delivery of features, resulting in a 15% faster project
+                    timeline.
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Collaborated with cross-functional teams to design, test,
-                    and implement new features and functionalities, reducing
-                    overall project timelines by 10%.
+                    Analyzed and identified test cases for frontend applications
+                    using Cypress and SonarQube, implementing end-to-end testing
+                    that improved code quality by 30%.
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Utilized RESTful APIs to integrate backend services with
-                    frontend applications, achieving seamless data flow and
-                    real-time updates for users.
-                  </li>
-                  <li style={{ listStyleType: "disc" }}>
-                    Engaged in Agile practices, participating in daily
-                    stand-ups, sprint planning, and retrospective meetings,
-                    fostering effective communication and teamwork
-                  </li>
-                  <li style={{ listStyleType: "disc" }}>
-                    Conducted code reviews and debugging sessions, ensuring
-                    high-quality code standards and reducing production issues.
+                    Reported and identified bugs during production,
+                    collaborating with the quality control team to resolve
+                    issues, subsequently reducing reported bugs by 25%.
                   </li>
                 </ul>
               </p>
@@ -102,7 +92,7 @@ const Resume = () => {
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Freelance, Appen</h4>
 
-              <span>March, 2023 – Now</span>
+              <span>March, 2023 – October, 2024</span>
 
               <p className="timeline-text">
                 <ul>
@@ -182,7 +172,7 @@ const Resume = () => {
               <div className="title-wrapper">
                 <h5 className="h5">Frameworks</h5>
                 <br />
-                <data value="70">React, Next.JS, Flask</data>
+                <data value="70">React, Next.js, Vue.js, Flask</data>
               </div>
             </li>
 
@@ -198,7 +188,9 @@ const Resume = () => {
               <div className="title-wrapper">
                 <h5 className="h5">Others</h5>
                 <br />
-                <data value="50">Git, Docker, Postman, Swagger</data>
+                <data value="50">
+                  Git, Docker, Postman, Swagger, Jest, Cypress
+                </data>
               </div>
             </li>
           </ul>

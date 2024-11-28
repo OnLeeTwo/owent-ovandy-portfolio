@@ -13,13 +13,13 @@ const About = () => {
           </p>
 
           <p>
-            My experience as a Structural Engineer, where I was entrusted to
-            design a factory foundation for a renowned company that improved
+            My past experience as a Structural Engineer, where I was entrusted
+            to design a factory foundation for a renowned company that improved
             efficiency and sustainability, provided me with a unique skill set
             that is crucial in software engineering. Having completed the RevoU
             bootcamp, my technical skills include JavaScript, Python,
-            TypeScript, React, Next.js, Flask, and MySQL, complemented by strong
-            problem-solving, analytical capabilities, and excellent
+            TypeScript, React, Next.js, Vue.js, Flask, and MySQL, complemented
+            by strong problem-solving, analytical capabilities, and excellent
             communication skills. By leveraging my engineering background and
             dedication to technology, I am excited to contribute impactful
             software solutions in a dynamic engineering role.
@@ -298,6 +298,15 @@ const About = () => {
                 <img
                   src="./assets/images/logo-2-color.png"
                   alt="pokemon-viewer logo"
+                />
+              </a>
+            </li>
+
+            <li className="clients-item">
+              <a href="portfolio/zoo-management-api">
+                <img
+                  src="./assets/images/logo-3-color.png"
+                  alt="zoo-management-api logo"
                 />
               </a>
             </li>

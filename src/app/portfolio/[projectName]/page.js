@@ -75,7 +75,29 @@ const ProjectDetail = ({ params }) => {
             "Validation: Ensure all API inputs are validated using tools like Cerberus or Marshmallow.",
             "Error Handling: Implement robust error handling to ensure proper responses for invalid data or system issues.",
             "Performance Optimization: Optimize database queries and API response times to ensure efficient data handling.",
-            "Documentation: Document all API routes and usage examples using tools like Swagger or Postman.",
+            "Documentation: Document all API routes and usage examples using swagger",
+          ],
+        },
+        "delish-app": {
+          title: "Delish App",
+          description: "A Restaurant Discovery App.",
+          screenshots: [
+            "/assets/images/delish-1.png",
+            "/assets/images/delish-2.png",
+            "/assets/images/delish-3.png",
+          ],
+          link: ["https://github.com/OnLeeTwo/backend-delish-app"],
+          technologies: ["Next.js", "Flask", "MySQL"],
+          background: [
+            "Delish is an app that offer seamless restaurant discovery with real-time availability and easy reservations, along with reliable reviews and personalized recommendations based on user preferences and past behavior.",
+          ],
+          responsibilities: [
+            "Backend developer: Develop RESTful API endpoints to handle operations such as managing restaurant profiles, reservations, user reviews, and media uploads.",
+            "Review and Media Features: Implement backend functionality for user review submissions and media file uploads using Flask and R2 bucket.",
+            "Input Validation: Ensure all API inputs are properly validated using tools like Cerberus",
+            "Error Management: Build robust error management systems to deliver accurate responses for invalid data or unexpected issues.",
+            "Performance Enhancement: Fine-tune database queries and API responses to deliver efficient and reliable functionality.",
+            "Documentation: Prepare detailed API documentation and provide usage examples in Postman to support team collaboration.",
           ],
         },
       };
