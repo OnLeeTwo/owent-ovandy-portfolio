@@ -312,7 +312,7 @@ const About = () => {
             </li>
 
             <li className="clients-item">
-              <a href="portfolio/delish">
+              <a href="portfolio/delish-app">
                 <img src="./assets/images/logo-4-color.png" alt="delish logo" />
               </a>
             </li>
