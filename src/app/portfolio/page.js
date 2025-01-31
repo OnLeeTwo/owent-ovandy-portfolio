@@ -29,6 +29,20 @@ const Portfolio = () => {
       image: "./assets/images/project-3.png",
       link: "zoo-management-api",
     },
+    {
+      id: 4,
+      title: "Delish App",
+      category: "Fullstack",
+      image: "./assets/images/project-4.png",
+      link: "delish-app",
+    },
+    {
+      id: 5,
+      title: "SahabatAjar.id",
+      category: "Fullstack",
+      image: "./assets/images/project-5.png",
+      link: "sahabatajar",
+    },
   ];
 
   const handleFilterChange = (filter) => {

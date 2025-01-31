@@ -45,7 +45,7 @@ const About = () => {
 
                 <p className="service-item-text">
                   Able to create dynamic and interactive user interfaces using
-                  modern frameworks and technologies, like React and Next.js
+                  modern frameworks and technologies, like React,Vue and Next.js
                 </p>
               </div>
             </li>
@@ -314,6 +314,15 @@ const About = () => {
             <li className="clients-item">
               <a href="portfolio/delish-app">
                 <img src="./assets/images/logo-4-color.png" alt="delish logo" />
+              </a>
+            </li>
+
+            <li className="clients-item">
+              <a href="portfolio/sahabatajar">
+                <img
+                  src="./assets/images/logo-5-color.png"
+                  alt="sahabat ajar logo"
+                />
               </a>
             </li>
           </ul>

@@ -1156,13 +1156,13 @@ main {
 }
 
 .responsibilities-list {
-  list-style-type: disc;
   margin-left: 20px;
   padding-left: 20px;
   line-height: 1.6;
 }
 
 .responsibilities-list li {
+  list-style-type: disc;
   font-size: var(--fs-6);
   color: var(--white-2);
   margin-bottom: 10px;
@@ -1385,6 +1385,10 @@ textarea.form-input::-webkit-resizer {
 
 .form-btn:disabled:hover::before {
   background: var(--bg-gradient-jet);
+}
+
+.justified-text {
+  text-align: justify;
 }
 
 /*-----------------------------------*\

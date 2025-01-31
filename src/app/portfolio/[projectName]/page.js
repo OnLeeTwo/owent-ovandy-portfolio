@@ -21,7 +21,7 @@ const ProjectDetail = ({ params }) => {
           technologies: ["Next.js", "Flask", "MySQL", "ChakraUI"],
           background:
             "In today's fast-paced world, many people seek fresh, locally sourced products while supporting sustainable practices and reducing their environmental footprint. However, connecting directly with local farmers can be challenging for consumers, while small-scale farmers often struggle to reach a broader customer base. Sucomart was founded to bridge this gap, offering a platform that promotes sustainability and facilitates direct trade between local farmers and eco-conscious consumers.",
-          responsibilites: [
+          responsibilities: [
             "UI/UX Development: Build an intuitive, eco-friendly user interface using Next.js.",
             "Responsive Design: Ensure the website works across all devices (desktop, mobile, tablet).",
             "Dynamic Content: Implement pages for product listings, farmer profiles, and customer dashboards.",
@@ -48,7 +48,7 @@ const ProjectDetail = ({ params }) => {
           technologies: ["Next.js", "PokeAPI"],
           background:
             "Pokemon Viewer is an online platform where users can browse and view all Pokémon from the official Pokédex. It allows users to search for Pokémon by name or number and explore detailed stats, abilities, and evolutions. The website is designed to provide an intuitive and fun way for Pokémon enthusiasts to explore their favorite creatures and discover new ones.",
-          responsibilites: [
+          responsibilities: [
             "UI/UX Development: Build an engaging and user-friendly interface to display Pokémon details using React/Next.js.",
             "Responsive Design: Ensure the website layout is fully responsive and works well on desktop, tablet, and mobile devices.",
             "Dynamic Content Rendering: Implement dynamic pages for Pokémon details, including stats, abilities, and evolutions.",
@@ -69,7 +69,7 @@ const ProjectDetail = ({ params }) => {
           background: [
             "Zoo Management API is a comprehensive backend system designed to manage a zoo operations. It enables the registration of animals, creation of detailed animal profiles (including sex, age, and species), and allows for tracking zoo profits, visitor feedback, and other key metrics. The API provides the foundation for a zoo's digital operations, making it easy to manage animals and operational data efficiently.",
           ],
-          responsibilites: [
+          responsibilities: [
             "API Design: Design RESTful API endpoints to handle operations for registering animals, managing their profiles, and tracking data such as sex, age, and species.",
             "Feedback System: Build endpoints for recording and managing visitor feedback.",
             "Validation: Ensure all API inputs are validated using tools like Cerberus or Marshmallow.",
@@ -98,6 +98,33 @@ const ProjectDetail = ({ params }) => {
             "Error Management: Build robust error management systems to deliver accurate responses for invalid data or unexpected issues.",
             "Performance Enhancement: Fine-tune database queries and API responses to deliver efficient and reliable functionality.",
             "Documentation: Prepare detailed API documentation and provide usage examples in Postman to support team collaboration.",
+          ],
+        },
+        sahabatajar: {
+          title: "SahabatAjar.id",
+          description: "A fast and easy to use online learning platform.",
+          screenshots: [
+            "/assets/images/sahabatajar-1.png",
+            "/assets/images/sahabatajar-2.png",
+            "/assets/images/sahabatajar-3.png",
+          ],
+          link: ["https://github.com/tobiasagyasta/frontend-delish-app"],
+          technologies: ["Next.js", "Flask", "MySQL"],
+          background: [
+            "SahabatAjar.id is a web-based Learning Management System (LMS) designed to empower educational institutions, instructors, and students by simplifying complex administrative and learning processes. This platform provides administrators with tools to manage institutes, courses, and enrollments efficiently. Instructors can create, manage, and assess courses and modules, while students gain seamless access to structured learning experiences, enhancing their educational journey. The system is built to be flexible and scalable, accommodating the diverse needs of modern education. ",
+          ],
+          responsibilities: [
+            "UI/UX Development: Design an intuitive and user-friendly interface using Next.js, ShadCN, and Tailwind CSS.",
+            "Responsive Design: Ensure a seamless experience across devices (desktop, tablet, and mobile).",
+            "Dynamic Course Management: Implement features for course creation, enrollment, and assessments.",
+            "Form Handling: Develop and validate forms for registration, course creation, and submissions.",
+            "API Development: Build RESTful APIs to handle users, courses, enrollments, assessement, and grading logic.",
+            "Database Management: Design and manage relational databases (MySQL) to store structured educational data.",
+            "Authentication & Authorization: Implement secure JWT-based authentication and RBAC for admins, instructors, and students.",
+            "File Upload & Management: Enable instructors and students to upload and access learning materials using cloud storage (R2).",
+            "Performance Optimization: Optimize database queries, API responses, and frontend performance for scalability.",
+            "Code Reviews: Maintain high code quality through reviews and best coding practices.",
+            "Deployment & Monitoring: Set up deployment using Docker and Railway for backend and cloud platforms (Vercel) for frontend.",
           ],
         },
       };
@@ -135,11 +162,11 @@ const ProjectDetail = ({ params }) => {
             <li key={tech}>{tech}</li>
           ))}
         </ul>
-        <p className="about-text">{projectDetails.background}</p>
-        <h4 className="h4 project-details-title">Responsibilites:</h4>
+        <p className="about-text justified-text">{projectDetails.background}</p>
+        <h4 className="h4 project-details-title">Responsibilities:</h4>
         <ul className="responsibilities-list">
-          {projectDetails.responsibilites.map((responsibilites) => (
-            <li key={responsibilites}>{responsibilites}</li>
+          {projectDetails.responsibilities.map((responsibilities) => (
+            <li key={responsibilities}>{responsibilities}</li>
           ))}
         </ul>
       </article>
