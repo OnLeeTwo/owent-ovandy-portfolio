@@ -8,21 +8,23 @@ const About = () => {
 
         <section className="about-text">
           <p>
-            Detail-oriented software engineer with a commitment to producing
-            quality end products and a keen eye for sustainable practices.
+            Detail-oriented software engineer with hands-on experience
+            developing web applications, gained through my current role as a
+            Frontend Developer.
           </p>
 
           <p>
-            My past experience as a Structural Engineer, where I was entrusted
-            to design a factory foundation for a renowned company that improved
-            efficiency and sustainability, provided me with a unique skill set
-            that is crucial in software engineering. Having completed the RevoU
-            bootcamp, my technical skills include JavaScript, Python,
-            TypeScript, React, Next.js, Vue.js, Flask, and MySQL, complemented
-            by strong problem-solving, analytical capabilities, and excellent
-            communication skills. By leveraging my engineering background and
-            dedication to technology, I am excited to contribute impactful
-            software solutions in a dynamic engineering role.
+            My past engineering background, combined with a commitment to
+            delivering high-quality products and a focus on sustainable
+            practices, gives me a unique perspective that strengthens my
+            capabilities as a software engineer. I have completed the RevoU
+            Full-Stack Software Engineering boot camp, and my technical skills
+            include JavaScript, TypeScript, Python, React, Next.js, Vue.js,
+            Flask, and MySQL, complemented by strong problem-solving, analytical
+            thinking, and excellent communication skills. By leveraging my
+            engineering background and dedication to technology, I am excited to
+            contribute impactful software solutions in a dynamic engineering
+            role.
           </p>
         </section>
 
@@ -33,8 +35,7 @@ const About = () => {
             <li className="service-item">
               <div className="service-icon-box">
                 <img
-                  src="./assets/images/icon-design.svg/
-        "
+                  src="./assets/images/icon-design.svg/"
                   alt="design icon"
                   width="40"
                 />
@@ -45,7 +46,8 @@ const About = () => {
 
                 <p className="service-item-text">
                   Able to create dynamic and interactive user interfaces using
-                  modern frameworks and technologies, like React,Vue and Next.js
+                  modern frameworks and technologies, like React, Vue and
+                  Next.js
                 </p>
               </div>
             </li>
@@ -321,7 +323,7 @@ const About = () => {
               <a href="portfolio/sahabatajar">
                 <img
                   src="./assets/images/logo-5-color.png"
-                  alt="sahabat ajar logo"
+                  alt="sahabat-ajar-logo"
                 />
               </a>
             </li>

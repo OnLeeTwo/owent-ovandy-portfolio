@@ -64,14 +64,13 @@ const Resume = () => {
               <p className="timeline-text">
                 <ul>
                   <li style={{ listStyleType: "disc" }}>
-                    Assisted in developing an internal application for project
-                    tracking utilizing TypeScript, Vue.js and Tailwind as
-                    frontend frameworks, enhancing project visibility and
-                    workflow management.
+                    Hands-on direct involvement in developing a SaaS application
+                    for management asset utilizing TypeScript, Vue.js, PrimeVue,
+                    and Tailwind as frontend frameworks.
                   </li>
                   <li style={{ listStyleType: "disc" }}>
-                    Collaborated with a cross-functional team of designers and
-                    backend developers to ensure seamless integration and
+                    Collaborated with a cross-functional team of UI/UX designers
+                    and backend developers to ensure seamless integration and
                     delivery of features, resulting in a 15% faster project
                     timeline.
                   </li>
